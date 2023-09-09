@@ -1,11 +1,10 @@
 #include <stdio.h>
-
 /**
- * main - main function
+ * main - Prints the alphabets
  *
- * Return Always 0 (Success)
+ * Return Always: 0 (Success)
  */
-int main(void)
+int main(void) /*int main is zero */
 {
 	char i;
 
