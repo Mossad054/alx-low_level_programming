@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main -main function
+ * main - main function
  *
- * Return always 0
+ * Return: always 0 (success)
  */
-int main(void)
+int main(void)/*return  main 0 sucessful*/
 {
 	char i;
 
