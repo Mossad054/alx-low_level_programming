@@ -6,7 +6,7 @@
  * Return Always: 0 (Success)
  */
 
-int main(void)/*return  main 0  sucessful*/
+int main(void)/*Return main 0 success*/
 {
 	char i;
 
@@ -14,6 +14,6 @@ int main(void)/*return  main 0  sucessful*/
 	putchar(i);
 	putchar('\n');
 
-	return (0); /*return 0 Sucess*/
+	return (0);
 
 }
