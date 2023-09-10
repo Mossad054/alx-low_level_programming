@@ -4,7 +4,7 @@
  * main - print all combination of two digits
  * Return: always 0 (success)
  */
-int main(void)/*main returns 0 sucess"
+int main(void)/*main returns 0 sucess**/
 {
 	int n, m;
 
@@ -24,7 +24,7 @@ int main(void)/*main returns 0 sucess"
 		}
 	}
 	}
-	putchar('\n');/*print a new line each time*/
+	putchar('\n');/*printsnew line*/
 	return (0);
 }
 
