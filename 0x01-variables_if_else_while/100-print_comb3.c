@@ -16,7 +16,7 @@ int main(void)/*main returns 0 sucess**/
 		{
 			putchar(n);
 			putchar(m);
-			if (n !=56 || m !=57)
+			if (n != 56 || m != 57)
 			{
 				putchar(',');
 				putchar(' ');
