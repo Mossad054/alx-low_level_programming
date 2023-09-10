@@ -2,9 +2,9 @@
 
 /**
  * main - print all combination of two digits
- * Return: always 0 (succes)
+ * Return: always 0 (success)
  */
-int main(void)
+int main(void)/*main returns 0 sucess"
 {
 	int n, m;
 
@@ -23,7 +23,8 @@ int main(void)
 			}
 		}
 	}
-	putchar('\n');
+	}
+	putchar('\n');/*print a new line each time*/
 	return (0);
 }
 
