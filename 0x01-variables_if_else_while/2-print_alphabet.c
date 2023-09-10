@@ -6,7 +6,7 @@
  * Return Always: 0 (Success)
  */
 
-int main(void)
+int main(void)/*return  main 0 is sucessful*/
 {
 	char i;
 
