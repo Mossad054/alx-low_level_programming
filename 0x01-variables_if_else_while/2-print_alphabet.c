@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabets
- * main - this is the main function of the task
- * Return Always: 0 (Success)
+ * main - Prints the alphabets in lowercase
+ * main - main output of the program
+ * Return: always 0 (Success)
  */
 
-int main(void)/*Return main 0 success*/
+int main(void)/*main return should be 0 then program is succesful*/
 {
 	char i;
 
@@ -14,6 +14,6 @@ int main(void)/*Return main 0 success*/
 	putchar(i);
 	putchar('\n');
 
-	return (0);
+	return (0);/*returns 0 program is success*/
 
 }
