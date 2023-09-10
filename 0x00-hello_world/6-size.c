@@ -1,13 +1,16 @@
 #include<stdio.h>
+
 /**
- * main - Entrypoint
- * Return: always 0 (succeed)
+ * main - Entry point for code output
+ *
+ * Return: Always 0 (succees)
  */
-int main(void)
+int main(void)/* main returns 0 program succeeds*/
 {
 	int a;
 	long int b;
 	long long int c;
+	char d;
 	float f;
 
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
