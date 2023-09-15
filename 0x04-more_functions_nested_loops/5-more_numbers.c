@@ -1,21 +1,23 @@
 #include "main.h"
 
 /**
- * more_numbers -function print numbers from 0 to 14 followed new line
- * Return: void
+ * more_numbers - print more numbers
+ *Return: void
  */
+
 void more_numbers(void)
 {
-	int i;
-	int j;
+	int i, j;
 
-	for (i = 0 ; i < 10 ; i++)
+	for (i = 1; i <= 10; i++)
 	{
-		for (j = 0 ; j < 15 ; j++)
+		for (j = 0; j <= 14; j++)
 		{
-			if (j >= 10)
-			_putchar(j / 10 + '0');
-		_putchar(j % 10 + '0');
-	}
+		if (j >= 10)
+		_putchar('1');
+	_putchar (j % 10 + '0');
+		}
 	_putchar('\n');
+	}
 }
+
