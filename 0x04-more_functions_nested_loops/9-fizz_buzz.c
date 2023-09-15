@@ -1,7 +1,11 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main -main function
+ * Decription: prints the numbers 1-100
+ * fizz for multiples of 3, buzz for multiples of 5,
+ *
  * Return: 0
  */
 
@@ -11,15 +15,15 @@ int main(void)
 
 	for (i = 1 ; i <= 100 ; i++)
 	{
-		if ((i % 3 == 0) && (i % 5 == 0))
-			printf("%s", "FizzBuzz");
+		if ((i % 15 == 0)
+			printf("FizzBuzz");
 		else if (i % 3 == 0)
-			printf("%s", "Fizz");
+			printf("Fizz");
 		else if (i % 5 == 0)
-			printf("%d", "Buzz");
+			printf("Buzz");
 		else
-			printf("%d", int i);
-		if (i == 100)
+			printf("%i", int i);
+		if (i < 100)
 			printf(" ");
 	}
 	printf("\n");
