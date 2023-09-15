@@ -5,7 +5,7 @@
  * Return: void
  */
 
-void print_traingle(int size)/*print_traingle 0 sucess */
+void print_traingle(int size)
 {
 	int hash, index;
 
@@ -28,9 +28,7 @@ void print_traingle(int size)/*print_traingle 0 sucess */
 			_putchar('\n');
 		}
 	}
+
 	_putchar('\n');
-	return (0);
-
-
 }
 
