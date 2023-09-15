@@ -29,5 +29,5 @@ void print_traingle(int size)
 		}
 	}
 	_putchar('\n');
-	return (0);
+
 }
