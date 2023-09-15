@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * print_traingle - funtions prints triangle usig character #
+ * print_traingle - funt prints_triangle using character #.
  * @size: The size of the traingle.
  * Return: void
  */
-void print_triangle(int size)/*print_traingle returns 0 success*/
+
+void print_traingle(int size)
 {
 	int hash, index;
 
@@ -28,4 +29,5 @@ void print_triangle(int size)/*print_traingle returns 0 success*/
 		}
 	}
 	_putchar('\n');
+	return (0);
 }
