@@ -1,5 +1,5 @@
 # 0x0F-function pointers
 
 
-README ON 
+README ON
 projects  on funtions pointers
