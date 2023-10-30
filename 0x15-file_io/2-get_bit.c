@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * append_text_to_file - append text at the end of a file
 * @filename:  points to name of the file.
@@ -10,10 +9,10 @@
 *         otherwise 1
 */
 
+int get_bit(unsigned long int n, unsigned int index);
 int append_text_to_file(const char *filename, char *text_content)
 {
 int a, b, len = 0;
-
 if (filename == NULL)
 return (-1);
 
